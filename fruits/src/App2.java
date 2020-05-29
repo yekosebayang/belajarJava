@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class App2 {
-    static Scanner scanner = new Scanner(System.in); // biar global gitu
-    static ArrayList<Buah> listBuah = new ArrayList<Buah>(); // bisa masuk ke fn
+    public static Scanner scanner = new Scanner(System.in); // biar global gitu
+    public static ArrayList<Buah> listBuah = new ArrayList<Buah>(); // bisa masuk ke fn
 
     public static void main(String[] args) throws Exception {
         // Tampilan menu
@@ -19,7 +19,7 @@ public class App2 {
                 menu.tambahBuah();
             } else if (x == 2) {
                 menu.tampilBuah();
-            } else if (x == 3) {
+            } else {
                 System.out.println("Keluar");
                 break;
             }
