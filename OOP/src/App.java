@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -11,9 +11,9 @@ public class App {
         // int payPerHour = 100;
 
         // hitung jumah gaji -> gaji pokok + (gajiPerJam * lembur)
-        Scanner scanner = new Scanner(System.in);
-        Employee orang = new Employee(50_000, 100);
-        Employee person = new Employee(10_000);
+        // Scanner scanner = new Scanner(System.in);
+        // Employee orang = new Employee(50_000, 100);
+        // Employee person = new Employee(10_000);
 
         // int overtime = scanner.nextInt();
 
