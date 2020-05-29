@@ -12,7 +12,7 @@ public class menu {
 			int inputHarga = (int) console.readInputNumber("Harga buah: ");
 			int inputStock = (int) console.readInputNumber("Stock buah: ");
 	    
-	        Buah buah = new Buah(inputNama, inputHarga, inputStock);
+	        Buah buah = new Buah(inputNama, inputHarga, inputStock);// class dari file buah
 	        
 	        App2.listBuah.add(buah); // tambah array
 	

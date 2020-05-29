@@ -53,7 +53,6 @@ public class Employee {
     if (payPerHour < 0) {
       throw new IllegalArgumentException("Pay per hour cannot be below 0");
     }
-
     this.payPerHour = payPerHour;
   }
 

@@ -13,7 +13,7 @@ public class App2 {
         while (true){
             System.out.println("========== MAIN MENU ==========");
             System.out.print("1. Tambah buah\n" + "2. List buah\n" + "3. Keluar\n" + ">");
-            int x = scanner.nextInt();
+            int x = scanner.nextInt(); //store data input dari text diatas
             if (x == 1) {
                 System.out.println("Tambah Buah");
                 menu.tambahBuah();
